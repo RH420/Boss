@@ -62,7 +62,7 @@ logo = """
 \033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●
 \033[1;97mOwner\033[1;97m: \033[1;92mQurban Yousafzai
 \033[1;97mYoutube\033[1;97m: \033[1;92mTechnical Wahab
-\033[1;97m____________________.._____________________"""
+\033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -91,7 +91,7 @@ print  """
 \033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●
 \033[1;97m	Owner\033[1;97m: \033[1;92mQurban Yousafzai
 \033[1;97m	Youtube\033[1;97m: \033[1;92mTechnical Wahan
-\033[1;97m____________________.._____________________"""
+\033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●"""
 
 CorrectUsername = "Qurban"
 CorrectPassword = "Qurban"
@@ -120,7 +120,7 @@ def login():
 		os.system('clear')
 		print logo
 		print(' \033[1;91mWarning: \033[1;97mDo Not Use Your Personal Account' )
-		print "\033[1;97m____________________.._____________________"
+		print "\033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●"
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email\x1b[1;93m: \x1b[1;96m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword\x1b[1;93m: \x1b[1;96m')
 		tik()
@@ -196,7 +196,7 @@ def menu():
 	print logo
 	print "	   \033[1;93m Name\033[1;93m:\033[1;97m"+nama+"\033[1;97m               "
 	print "	   \033[1;93m ID\033[1;93m:\033[1;97m"+id+"\x1b[1;97m              "
-	print "\033[1;97m____________________.._____________________"
+	print "\033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●"
 	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning..."
 	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
@@ -243,7 +243,7 @@ def pilih_super():
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m____________________.._____________________"
+		print "\033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●"
 		jalan('\033[1;93mGetting IDs \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -253,7 +253,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;96m[+] \033[1;93mEnter ID\033[1;93m: \033[1;97m")
-		print "\033[1;97m____________________.._____________________"
+		print "\033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -397,7 +397,7 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m____________________.._____________________"
+	print "\033[1;97m●●●●●●●●●●●●●●●●●●●●\033[1;92m<><>\033[1;97m●●●●●●●●●●●●●●●●●●●●"
 	print "  \033[1;91m«---------Developed By Omi------------»"
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
