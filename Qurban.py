@@ -90,8 +90,8 @@ print  """
   #### #  ####  #    # #####  #    # #    # 
                                             
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;97mOwner\033[1;97m: \033[1;92mQurban Yousafzai
-\033[1;97mYoutube\033[1;97m: \033[1;92mTechnical Wahan
+\033[1;97m	Owner\033[1;97m: \033[1;92mQurban Yousafzai
+\033[1;97m	Youtube\033[1;97m: \033[1;92mTechnical Wahan
 \033[1;97m____________________.._____________________"""
 
 CorrectUsername = "Qurban"
